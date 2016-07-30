@@ -13,6 +13,7 @@ DOWNLOAD_DEFAULT_IMAGES=False
 IMAGE_URLS="http://images.trystack.cn/cirros/cirros-0.3.4-x86_64-disk.img"
 
 HOST_IP=192.168.27.128
+ENABLE_IDENTITY_V2=False
 
 
 # Credentials
