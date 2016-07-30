@@ -81,12 +81,12 @@ SCREEN_LOGDIR=/opt/stack/logs
 
 ## Telemetry
 # Enable the aodh alarming services
-enable_plugin aodh http://git.trystack.cn/openstack/aodh stable/mitaka
+enable_plugin aodh http://git.trystack.cn/openstack/aodh
 
 # Enable the Ceilometer devstack plugin
 enable_plugin ceilometer http://git.trystack.cn/openstack/ceilometer stable/mitaka
 
 # Enable gnocchi
-enable_plugin gnocchi http://git.trystack.cn/openstack/gnocchi stable/mitaka
+enable_plugin gnocchi http://git.trystack.cn/openstack/gnocchi
 enable_service gnocchi-api,gnocchi-metricd
 enable_service gnocchi-grafana
