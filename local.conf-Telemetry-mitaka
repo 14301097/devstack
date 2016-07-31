@@ -88,6 +88,6 @@ enable_plugin aodh http://git.trystack.cn/openstack/aodh
 enable_plugin ceilometer http://git.trystack.cn/openstack/ceilometer stable/mitaka
 
 # Enable gnocchi
-enable_plugin gnocchi http://git.trystack.cn/openstack/gnocchi
+enable_plugin gnocchi http://git.trystack.cn/openstack/gnocchi stable/2.1
 enable_service gnocchi-api,gnocchi-metricd
 enable_service gnocchi-grafana
